@@ -26,7 +26,7 @@ extension FrogmiApi {
     static func download(_ string: String) -> AnyPublisher<MyDataList, Error> {
         var request:URLRequest
         if(string==""){
-            request = URLRequest(url: base.appendingPathComponent("test2"))
+            request = URLRequest(url: base.appendingPathComponent("stores"))
         } else {
             request = URLRequest(url: URL(string: string)!)
         }
