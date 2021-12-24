@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8275636127750A16002F2591 /* TestFrogmiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275636027750A16002F2591 /* TestFrogmiApp.swift */; };
+		8275638D27750D16002F2591 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275638C27750D16002F2591 /* ViewModel.swift */; };
+		8275639027750ED3002F2591 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275638F27750ED3002F2591 /* Agent.swift */; };
+		82756392277511E3002F2591 /* FrogmiApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82756391277511E3002F2591 /* FrogmiApi.swift */; };
+		8275639427751C1D002F2591 /* FrogmiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275639327751C1D002F2591 /* FrogmiViewModel.swift */; };
+		8275639727751EB2002F2591 /* FrogmiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275639627751EB2002F2591 /* FrogmiView.swift */; };
+		8275639A2775239D002F2591 /* BaseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563992775239D002F2591 /* BaseState.swift */; };
+		8275639C27752EE9002F2591 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275639B27752EE9002F2591 /* StoreCell.swift */; };
+		8275639E27752F7F002F2591 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275639D27752F7F002F2591 /* Store.swift */; };
+		827563A027753AB2002F2591 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8275639F27753AB2002F2591 /* StoreService.swift */; };
+		827563A227753BEB002F2591 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563A127753BEB002F2591 /* StoreViewModel.swift */; };
+		827563A427754559002F2591 /* FrogmiStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563A327754559002F2591 /* FrogmiStoreService.swift */; };
+		827563A62775BD38002F2591 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563A52775BD38002F2591 /* MyData.swift */; };
+		827563A82775BE23002F2591 /* MyDataList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563A72775BE23002F2591 /* MyDataList.swift */; };
+		827563AA2775C69A002F2591 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563A92775C69A002F2591 /* Links.swift */; };
+		827563AD2775C815002F2591 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827563AC2775C815002F2591 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8275636E27750A17002F2591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8275635527750A15002F2591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8275635C27750A16002F2591;
+			remoteInfo = TestFrogmi;
+		};
+		8275637827750A17002F2591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8275635527750A15002F2591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8275635C27750A16002F2591;
+			remoteInfo = TestFrogmi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8275635D27750A16002F2591 /* TestFrogmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFrogmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8275636027750A16002F2591 /* TestFrogmiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFrogmiApp.swift; sourceTree = "<group>"; };
+		8275636D27750A17002F2591 /* TestFrogmiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrogmiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8275637727750A17002F2591 /* TestFrogmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestFrogmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8275638C27750D16002F2591 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		8275638F27750ED3002F2591 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		82756391277511E3002F2591 /* FrogmiApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogmiApi.swift; sourceTree = "<group>"; };
+		8275639327751C1D002F2591 /* FrogmiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogmiViewModel.swift; sourceTree = "<group>"; };
+		8275639627751EB2002F2591 /* FrogmiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogmiView.swift; sourceTree = "<group>"; };
+		827563992775239D002F2591 /* BaseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseState.swift; sourceTree = "<group>"; };
+		8275639B27752EE9002F2591 /* StoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
+		8275639D27752F7F002F2591 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8275639F27753AB2002F2591 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		827563A127753BEB002F2591 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
+		827563A327754559002F2591 /* FrogmiStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogmiStoreService.swift; sourceTree = "<group>"; };
+		827563A52775BD38002F2591 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		827563A72775BE23002F2591 /* MyDataList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataList.swift; sourceTree = "<group>"; };
+		827563A92775C69A002F2591 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		827563AC2775C815002F2591 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8275635A27750A16002F2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275636A27750A17002F2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275637427750A17002F2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8275635427750A15002F2591 = {
+			isa = PBXGroup;
+			children = (
+				8275635F27750A16002F2591 /* TestFrogmi */,
+				8275635E27750A16002F2591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8275635E27750A16002F2591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8275635D27750A16002F2591 /* TestFrogmi.app */,
+				8275636D27750A17002F2591 /* TestFrogmiTests.xctest */,
+				8275637727750A17002F2591 /* TestFrogmiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8275635F27750A16002F2591 /* TestFrogmi */ = {
+			isa = PBXGroup;
+			children = (
+				8275638E27750EB7002F2591 /* NetworkLayer */,
+				8275638A27750AF9002F2591 /* MVVM */,
+				827563AB2775C805002F2591 /* Extra */,
+				8275636027750A16002F2591 /* TestFrogmiApp.swift */,
+			);
+			path = TestFrogmi;
+			sourceTree = "<group>";
+		};
+		8275638A27750AF9002F2591 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				8275639827752378002F2591 /* Model */,
+				8275639527751E9A002F2591 /* View */,
+				8275638B27750CED002F2591 /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		8275638B27750CED002F2591 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8275639327751C1D002F2591 /* FrogmiViewModel.swift */,
+				827563A127753BEB002F2591 /* StoreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8275638E27750EB7002F2591 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8275638F27750ED3002F2591 /* Agent.swift */,
+				82756391277511E3002F2591 /* FrogmiApi.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		8275639527751E9A002F2591 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8275639627751EB2002F2591 /* FrogmiView.swift */,
+				8275639B27752EE9002F2591 /* StoreCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8275639827752378002F2591 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				827563992775239D002F2591 /* BaseState.swift */,
+				8275639D27752F7F002F2591 /* Store.swift */,
+				8275639F27753AB2002F2591 /* StoreService.swift */,
+				827563A327754559002F2591 /* FrogmiStoreService.swift */,
+				827563A52775BD38002F2591 /* MyData.swift */,
+				827563A72775BE23002F2591 /* MyDataList.swift */,
+				827563A92775C69A002F2591 /* Links.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		827563AB2775C805002F2591 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				8275638C27750D16002F2591 /* ViewModel.swift */,
+				827563AC2775C815002F2591 /* Constants.swift */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8275635C27750A16002F2591 /* TestFrogmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8275638127750A17002F2591 /* Build configuration list for PBXNativeTarget "TestFrogmi" */;
+			buildPhases = (
+				8275635927750A16002F2591 /* Sources */,
+				8275635A27750A16002F2591 /* Frameworks */,
+				8275635B27750A16002F2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestFrogmi;
+			productName = TestFrogmi;
+			productReference = 8275635D27750A16002F2591 /* TestFrogmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8275636C27750A17002F2591 /* TestFrogmiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8275638427750A17002F2591 /* Build configuration list for PBXNativeTarget "TestFrogmiTests" */;
+			buildPhases = (
+				8275636927750A17002F2591 /* Sources */,
+				8275636A27750A17002F2591 /* Frameworks */,
+				8275636B27750A17002F2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8275636F27750A17002F2591 /* PBXTargetDependency */,
+			);
+			name = TestFrogmiTests;
+			productName = TestFrogmiTests;
+			productReference = 8275636D27750A17002F2591 /* TestFrogmiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8275637627750A17002F2591 /* TestFrogmiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8275638727750A17002F2591 /* Build configuration list for PBXNativeTarget "TestFrogmiUITests" */;
+			buildPhases = (
+				8275637327750A17002F2591 /* Sources */,
+				8275637427750A17002F2591 /* Frameworks */,
+				8275637527750A17002F2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8275637927750A17002F2591 /* PBXTargetDependency */,
+			);
+			name = TestFrogmiUITests;
+			productName = TestFrogmiUITests;
+			productReference = 8275637727750A17002F2591 /* TestFrogmiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8275635527750A15002F2591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8275635C27750A16002F2591 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8275636C27750A17002F2591 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8275635C27750A16002F2591;
+					};
+					8275637627750A17002F2591 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8275635C27750A16002F2591;
+					};
+				};
+			};
+			buildConfigurationList = 8275635827750A15002F2591 /* Build configuration list for PBXProject "TestFrogmi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8275635427750A15002F2591;
+			productRefGroup = 8275635E27750A16002F2591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8275635C27750A16002F2591 /* TestFrogmi */,
+				8275636C27750A17002F2591 /* TestFrogmiTests */,
+				8275637627750A17002F2591 /* TestFrogmiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8275635B27750A16002F2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275636B27750A17002F2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275637527750A17002F2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8275635927750A16002F2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8275639A2775239D002F2591 /* BaseState.swift in Sources */,
+				827563A027753AB2002F2591 /* StoreService.swift in Sources */,
+				8275639727751EB2002F2591 /* FrogmiView.swift in Sources */,
+				827563A227753BEB002F2591 /* StoreViewModel.swift in Sources */,
+				8275639027750ED3002F2591 /* Agent.swift in Sources */,
+				8275638D27750D16002F2591 /* ViewModel.swift in Sources */,
+				8275639E27752F7F002F2591 /* Store.swift in Sources */,
+				827563AD2775C815002F2591 /* Constants.swift in Sources */,
+				8275636127750A16002F2591 /* TestFrogmiApp.swift in Sources */,
+				827563A62775BD38002F2591 /* MyData.swift in Sources */,
+				827563A82775BE23002F2591 /* MyDataList.swift in Sources */,
+				827563AA2775C69A002F2591 /* Links.swift in Sources */,
+				82756392277511E3002F2591 /* FrogmiApi.swift in Sources */,
+				8275639C27752EE9002F2591 /* StoreCell.swift in Sources */,
+				8275639427751C1D002F2591 /* FrogmiViewModel.swift in Sources */,
+				827563A427754559002F2591 /* FrogmiStoreService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275636927750A17002F2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8275637327750A17002F2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8275636F27750A17002F2591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8275635C27750A16002F2591 /* TestFrogmi */;
+			targetProxy = 8275636E27750A17002F2591 /* PBXContainerItemProxy */;
+		};
+		8275637927750A17002F2591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8275635C27750A16002F2591 /* TestFrogmi */;
+			targetProxy = 8275637827750A17002F2591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8275637F27750A17002F2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8275638027750A17002F2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8275638227750A17002F2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = T2L73Y3HJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mio.test.TestFrogmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8275638327750A17002F2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = T2L73Y3HJ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mio.test.TestFrogmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8275638527750A17002F2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2L73Y3HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mio.test.TestFrogmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestFrogmi.app/TestFrogmi";
+			};
+			name = Debug;
+		};
+		8275638627750A17002F2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2L73Y3HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mio.test.TestFrogmiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestFrogmi.app/TestFrogmi";
+			};
+			name = Release;
+		};
+		8275638827750A17002F2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2L73Y3HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mio.test.TestFrogmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestFrogmi;
+			};
+			name = Debug;
+		};
+		8275638927750A17002F2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T2L73Y3HJ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mio.test.TestFrogmiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestFrogmi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8275635827750A15002F2591 /* Build configuration list for PBXProject "TestFrogmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8275637F27750A17002F2591 /* Debug */,
+				8275638027750A17002F2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8275638127750A17002F2591 /* Build configuration list for PBXNativeTarget "TestFrogmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8275638227750A17002F2591 /* Debug */,
+				8275638327750A17002F2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8275638427750A17002F2591 /* Build configuration list for PBXNativeTarget "TestFrogmiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8275638527750A17002F2591 /* Debug */,
+				8275638627750A17002F2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8275638727750A17002F2591 /* Build configuration list for PBXNativeTarget "TestFrogmiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8275638827750A17002F2591 /* Debug */,
+				8275638927750A17002F2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8275635527750A15002F2591 /* Project object */;
+}
